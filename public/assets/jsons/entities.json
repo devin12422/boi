@@ -1,0 +1,40 @@
+{
+    "characters": {
+        "jakub": {
+            "health": 3,
+            "damage": 3,
+            "shotSpeed": 1.25,
+            "range": 29.75,
+            "speed": 0.8,
+            "consumables": [2, 0],
+            "item": 0
+        },
+        "aaron": {
+            "health": 2.5,
+            "damage": 3.5,
+            "shotSpeed": 1,
+            "range": 23.75,
+            "speed": 1.5,
+            "consumables": [1, 2],
+            "item": 1
+        },
+        "nathan": {
+            "health": 4,
+            "damage": 3.5,
+            "shotSpeed": 1,
+            "range": 23.75,
+            "speed": 0.9,
+            "consumables": [4, 1],
+            "item": 2
+        },
+        "coco": {
+            "health": 3,
+            "damage": 4.5,
+            "shotSpeed": 0.9,
+            "range": 17.75,
+            "speed": 1.15,
+            "consumables": [0, 0],
+            "item": 3
+        }
+    }
+}

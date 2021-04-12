@@ -1,0 +1,13 @@
+{
+    // This file is used to configure the three buttons along Codio's top menu.
+    // Run button configuration
+    "commands": {
+        "Run Node": "node server.js"
+    },
+    // Preview button configuration
+    "preview": {
+        "Preview Website": "http://{{domain9966}}/"
+    },
+    // Debugger target button configuration
+    "debugger": [{"type":"NODEJS","command":"{{filepath}}","before":"","uuid":"20d5151f-c12d-d9a5-b1d6-e3832248ed81","name":"Debug Current NodeJS File"}]
+}

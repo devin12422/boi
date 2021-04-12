@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.0.0/dist/phaser.min.js"></script>
+    <script type="text/javascript" src="assets/jsons/entities.json"></script>
+    <div id="yee">
+        <h1>not the binding of isaac lmao</h1>
+        <div>
+            <input type="radio" id="aaron" name="character" value="aaron">
+            <label for="aaron">Aaron</label><br>
+            <input type="radio" id="jakub" name="character" value="jakub" checked>
+            <label for="jakub">Jakub</label><br>
+            <!--             <input type="radio" id="nathan" name="character" value="nathan">
+            <label for="nathan">Nathan</label> -->
+        </div>
+        <h3>Username</h3>
+        <input type="text" value="Username">
+        <button onclick="start();">Start</button>
+    </div>
+    <script src="js/game.js"></script>
+</body>
+
+</html>
