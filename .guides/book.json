@@ -1,0 +1,17 @@
+{
+ "name": "uhhhh",
+ "children": [
+  {
+   "title": "Page 1",
+   "id": "b4ea21f1-914e-ccd8-c3ab-cb70331e3d7a",
+   "pageId": "b4ea21f1-914e-ccd8-c3ab-cb70331e3d7a",
+   "type": "page"
+  },
+  {
+   "title": "Page 2",
+   "id": "6c447a5f-2c1c-068a-6118-10ae434fd7f1",
+   "pageId": "6c447a5f-2c1c-068a-6118-10ae434fd7f1",
+   "type": "page"
+  }
+ ]
+}

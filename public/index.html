@@ -6,22 +6,52 @@
 
 <body>
     <script src="/socket.io/socket.io.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/phaser@3.0.0/dist/phaser.min.js"></script>
+    <script src="/node_modules/@azerion/phaser-input/build/phaser-input.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.54.0/dist/phaser.min.js"></script>
     <script type="text/javascript" src="assets/jsons/entities.json"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+
+        body {
+            background-color: gray;
+            text-align: center;
+        }
+
+        div {
+            background-color: whitesmoke;
+        }
+
+        canvas {
+            margin-left: auto;
+        }
+
+        #chat {
+            background-color: rgba(255, 255, 255, 0.1);
+            right: 0px;
+            bottom: 0px;
+            z-index: 2;
+            position: absolute;
+            height: 30vh;
+            width: 30vw;
+        }
+    </style>
     <div id="yee">
         <h1>not the binding of isaac lmao</h1>
         <div>
-            <input type="radio" id="aaron" name="character" value="aaron">
-            <label for="aaron">Aaron</label><br>
-            <input type="radio" id="jakub" name="character" value="jakub" checked>
-            <label for="jakub">Jakub</label><br>
-            <!--             <input type="radio" id="nathan" name="character" value="nathan">
-            <label for="nathan">Nathan</label> -->
+            <div class="card"><img src="" alt=""><input type="radio" id="aaron" name="character" value="aaron">
+                <label for="aaron">Aaron</label><br>
+            </div>
+            <div class="card"><img src="" alt=""><input type="radio" id="jakub" name="character" value="jakub" checked>
+                <label for="jakub">Jakub</label><br>
+            </div>
         </div>
-        <h3>Username</h3>
-        <input type="text" value="Username">
-        <button onclick="start();">Start</button>
+        <div>
+            <h3>Username</h3>
+            <input type="text" value="Username" id="user">
+        </div>
+        <button onclick="start();">START</button>
     </div>
+    <script src="assets/jsons/players.json"></script>
     <script src="js/game.js"></script>
 </body>
 
